@@ -1,0 +1,50 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html { scroll-behavior: smooth; }
+  body { 
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    background-color: #f8fafc;
+    color: #1e293b;
+    -webkit-font-smoothing: antialiased;
+  }
+}
+
+@layer components {
+  .glass-panel {
+    background: rgba(255, 255, 255, 0.7);
+    backdrop-filter: blur(12px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+  }
+  .gradient-primary {
+    background: linear-gradient(135deg, #2563eb 0%, #0d9488 100%);
+  }
+  .card-hover {
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  .card-hover:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);
+  }
+  .input-medical {
+    @apply w-full px-4 py-3 rounded-xl border border-slate-200 bg-white text-slate-800 
+           placeholder:text-slate-400 focus:outline-none focus:ring-2 focus:ring-primary-500/20 
+           focus:border-primary-500 transition-all duration-200;
+  }
+  .btn-primary {
+    @apply px-6 py-3 rounded-xl bg-primary-600 text-white font-semibold 
+           hover:bg-primary-700 active:scale-[0.98] transition-all duration-200 
+           disabled:opacity-50 disabled:cursor-not-allowed shadow-lg shadow-primary-500/25;
+  }
+  .btn-secondary {
+    @apply px-6 py-3 rounded-xl bg-white text-slate-700 font-semibold border border-slate-200
+           hover:bg-slate-50 active:scale-[0.98] transition-all duration-200;
+  }
+  .btn-teal {
+    @apply px-6 py-3 rounded-xl bg-teal-600 text-white font-semibold 
+           hover:bg-teal-700 active:scale-[0.98] transition-all duration-200 
+           shadow-lg shadow-teal-500/25;
+  }
+}
