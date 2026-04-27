@@ -2,7 +2,7 @@
 
 import type { HealthRecord, AIRecommendation, HealthcareProvider } from '@/types';
 import { generateId } from '@/lib/utils';
-import { mockProviders } from './mockData';
+import { mockProviders } from './data/mockData';
 
 // Simulated Gemini API integration
 // In production, replace with actual Google Generative AI SDK calls
