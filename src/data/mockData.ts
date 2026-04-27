@@ -31,8 +31,8 @@ export const mockAppointments: Appointment[] = [
 
 export const mockMessages: Message[] = [
   { id: 'm1', senderId: 'p1', senderName: 'Dr. Sarah Chen', senderRole: 'Cardiologist', recipientId: 'u1', content: 'Your recent ECG results look stable. Please continue with your current medication regimen and schedule a follow-up in 3 months.', encrypted: true, timestamp: '2026-04-20T14:30:00Z', read: true },
-  { id: 'm2', senderId: 'p2', senderName: 'Dr. James Wilson', senderRole: 'Endocrinologist', recipientId: 'u1', content: 'Your HbA1c has improved to 7.2%. Great progress! I've updated your medication list with a lower dose of metformin.', encrypted: true, timestamp: '2026-04-22T09:15:00Z', read: false },
-  { id: 'm3', senderId: 'u1', senderName: 'John Doe', senderRole: 'Patient', recipientId: 'p1', content: 'Thank you doctor. I've been experiencing mild dizziness after taking the new medication. Should I be concerned?', encrypted: true, timestamp: '2026-04-23T16:45:00Z', read: false },
+  { id: 'm2', senderId: 'p2', senderName: 'Dr. James Wilson', senderRole: 'Endocrinologist', recipientId: 'u1', content: 'Your HbA1c has improved to 7.2%. Great progress! I\'ve updated your medication list with a lower dose of metformin.', encrypted: true, timestamp: '2026-04-22T09:15:00Z', read: false },
+  { id: 'm3', senderId: 'u1', senderName: 'John Doe', senderRole: 'Patient', recipientId: 'p1', content: 'Thank you doctor. I\'ve been experiencing mild dizziness after taking the new medication. Should I be concerned?', encrypted: true, timestamp: '2026-04-23T16:45:00Z', read: false },
 ];
 
 export const mockEmployerData: EmployerData = {
