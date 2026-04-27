@@ -35,9 +35,9 @@ const conditionOptions: Record<string, string[]> = {
   'Endocrine and Metabolic': ['Type 1 diabetes', 'Type 2 diabetes', 'Prediabetes', 'Thyroid disorders', 'Obesity', 'Metabolic syndrome', 'Gout'],
   'Kidney and Urinary': ['Chronic kidney disease', 'Kidney stones', 'Nephrotic syndrome', 'Urinary tract disorders', 'Proteinuria', 'Dialysis history'],
   'Respiratory': ['Asthma', 'COPD', 'Tuberculosis history', 'Sleep apnea', 'Chronic bronchitis', 'Pulmonary fibrosis'],
-  'Neurological': ['Epilepsy', 'Migraine', 'Parkinson's disease', 'Multiple sclerosis', 'Dementia', 'Neuropathy'],
+  'Neurological': ['Epilepsy', 'Migraine', 'Parkinson\'s disease', 'Multiple sclerosis', 'Dementia', 'Neuropathy'],
   'Mental Health': ['Anxiety disorder', 'Depression', 'Bipolar disorder', 'PTSD', 'ADHD', 'Schizophrenia', 'Substance use disorder'],
-  'Gastrointestinal': ['Peptic ulcer disease', 'GERD', 'IBS', 'Crohn's disease', 'Ulcerative colitis', 'Liver disease', 'Hepatitis'],
+  'Gastrointestinal': ['Peptic ulcer disease', 'GERD', 'IBS', 'Crohn\'s disease', 'Ulcerative colitis', 'Liver disease', 'Hepatitis'],
   'Musculoskeletal': ['Arthritis', 'Osteoporosis', 'Chronic back pain', 'Fibromyalgia', 'Lupus', 'Joint replacement history'],
 };
 
