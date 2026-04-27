@@ -26,8 +26,8 @@ const steps = [
 const conditionCategories = [
   'Cardiovascular', 'Endocrine and Metabolic', 'Kidney and Urinary', 'Respiratory',
   'Neurological', 'Mental Health', 'Gastrointestinal', 'Musculoskeletal',
-  'Cancer / Oncology', 'Infectious Disease', 'Autoimmune / Immune', 'Women's Health',
-  'Men's Health', 'Other'
+  'Cancer / Oncology', 'Infectious Disease', 'Autoimmune / Immune', 'Women\'s Health',
+  'Men\'s Health', 'Other'
 ];
 
 const conditionOptions: Record<string, string[]> = {
